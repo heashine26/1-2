@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--선택자는 
+    id선택자는 #aa
+    태그선택자(h1, input, div)
+    class 선택자 -->
+    <style>
+        .mydiv{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        input{
+            background-color: aqua;
+            width: 100%;
+            font-size: 30px;
+        }
+        #aa{
+            background-color: rgb(113, 26, 176);
+            width: 50%;
+            font-size: 30px;
+        }       
+        button{
+            padding: 3rem; 
+            margin: 1rem;
+            border: none;
+            color:white;
+            background-color: rgb(255,100,100);
+            cursor: pointer;
+        }
+        button:hover{
+                background-color: aqua;
+        }
+
+ 
+    </style>
+</head>
+<body>
+    <div class="mydiv">
+        <lavel for="cc">num</lavel>
+        <!--name은 백엔드 id는 css에서 사용-->
+        <input type="text" name="" id="cc">    
+    </div>
+    <div>
+        <lavel for="aa">id</lavel>
+        <!--name은 백엔드 id는 css에서 사용-->
+        <input type="text" name="" id="aa">
+    </div>
+    <div>
+        <lavel for="bb">password</lavel>
+        <input type="password" name="" id="bb">
+    </div>
+    <button>login</button>
+</body>
+</html>
